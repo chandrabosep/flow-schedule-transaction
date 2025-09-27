@@ -1,3 +1,9 @@
+```
+EVM Contract deployed and ready at 0x6baaD070bF8AB1932578157826CfB209BdB254a1
+
+Cadence Contracts deployed at 0x9f3e9372a21a4f15
+```
+
 # 👋 Welcome to the Scheduled Transactions Scaffold
 
 This project is a starting point for you to test out Scheduled Transactions on the Flow Blockchain. It comes with example contracts, scripts, transactions, and tests to help you get started.
