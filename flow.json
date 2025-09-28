@@ -1,6 +1,20 @@
 {
 	"contracts": {
-		"Counter": "cadence/contracts/Counter.cdc",
+		"NativeEVMBridge": "cadence/contracts/NativeEVMBridge.cdc",
+		"EVM": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
+		"FlowTransactionScheduler": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
 		"FlowToken": {
 			"source": "",
 			"aliases": {
@@ -37,10 +51,10 @@
 	},
 	"deployments": {
 		"emulator": {
-			"emulator-account": ["Counter", "SimpleFlowScheduler"]
+			"emulator-account": ["SimpleFlowScheduler", "NativeEVMBridge"]
 		},
 		"testnet": {
-			"testnet-account": ["Counter", "SimpleFlowScheduler"]
+			"testnet-account": ["SimpleFlowScheduler", "NativeEVMBridge"]
 		}
 	}
 }

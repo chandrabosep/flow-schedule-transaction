@@ -1,0 +1,23 @@
+{
+  "name": "scheduledtransactions-scaffold",
+  "version": "1.0.0",
+  "description": "``` EVM Contract deployed and ready at 0x6baaD070bF8AB1932578157826CfB209BdB254a1",
+  "main": "ai-integration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onflow/scheduledtransactions-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onflow/scheduledtransactions-scaffold/issues"
+  },
+  "homepage": "https://github.com/onflow/scheduledtransactions-scaffold#readme",
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
